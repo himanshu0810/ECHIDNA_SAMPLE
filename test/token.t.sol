@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.0;
+pragma solidity ^0.8.21;
 
 import {Test, console} from "forge-std/Test.sol";
 import {Token} from "../src/token.sol";
@@ -8,7 +8,7 @@ import {Token} from "../src/token.sol";
 //no user can have balance greater than 1000
 contract TestToken is Token {
 
-    constructor() public {
+    constructor() {
 
     }
 
